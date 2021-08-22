@@ -1,13 +1,11 @@
 import logo from "./logo.svg";
+import TodoFeature from "./features/Todo";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hoàng Phúc đẹp trai vl</p>
-      </header>
+      <TodoFeature />
     </div>
   );
 }
