@@ -1,4 +1,3 @@
-import TodoFeature from "./features/Todo";
 import AlbumFeature from "./features/Album";
 // import "./App.css";
 
