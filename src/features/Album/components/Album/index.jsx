@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Album/style.css'
 import PropTypes from 'prop-types';
 
 Album.propTypes = {
@@ -8,7 +9,10 @@ Album.propTypes = {
 function Album({album}) {
     return (
         <div className="album">
-            <p>{album.name}</p>
+            <div className="album_thumbnaiUrl">
+                <img src={album.thumbnaiUrl} alt={album.name} />
+            </div>
+            <p className="album_name">{album.name}</p>
         </div>
     );
 }

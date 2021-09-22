@@ -1,5 +1,6 @@
 import React from 'react';
 import Album from '../Album'
+import '../AlbumList/style.css'
 import PropTypes from 'prop-types';
 
 AlbumList.propTypes = {
